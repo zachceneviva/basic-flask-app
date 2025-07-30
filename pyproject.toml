@@ -1,0 +1,9 @@
+[tool.ruff]
+# Same as Black.
+line-length = 88
+# Assume Python 3.9
+target-version = "py39"
+
+[tool.ruff.lint]
+# Enable a subset of the core rules.
+select = ["E", "F", "I"]
